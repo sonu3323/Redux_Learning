@@ -8,9 +8,9 @@ function App(props) {
   return (
     <div className="App">
       <h1> The Name is {props.name}</h1>
-      {props.wishes.map(item => {
+      {/* {props.wishes.map(item => {
         return <p>{item}</p>;
-      })}
+      })} */}
       <button onClick={() => props.onchange("Devender")}> Click me</button>
     </div>
   );
